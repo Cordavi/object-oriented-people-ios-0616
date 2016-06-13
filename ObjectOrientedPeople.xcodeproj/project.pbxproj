@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF6A7391D0F097400E054FB /* FISPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6A7381D0F097400E054FB /* FISPerson.m */; };
 		4402C90D1941FBCC004F1ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4402C90C1941FBCC004F1ADE /* Foundation.framework */; };
 		4402C90F1941FBCC004F1ADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4402C90E1941FBCC004F1ADE /* CoreGraphics.framework */; };
 		4402C9111941FBCC004F1ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4402C9101941FBCC004F1ADE /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		0C2A04543C98CE4804ED6520 /* Pods-ObjectOrientedPeopleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectOrientedPeopleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectOrientedPeopleTests/Pods-ObjectOrientedPeopleTests.release.xcconfig"; sourceTree = "<group>"; };
 		1EAB10A183D5648A4F6C2BDB /* Pods-ObjectOrientedPeopleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectOrientedPeopleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectOrientedPeopleTests/Pods-ObjectOrientedPeopleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF6A7371D0F097400E054FB /* FISPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPerson.h; sourceTree = "<group>"; };
+		2EF6A7381D0F097400E054FB /* FISPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPerson.m; sourceTree = "<group>"; };
 		4402C9091941FBCC004F1ADE /* ObjectOrientedPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectOrientedPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4402C90C1941FBCC004F1ADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4402C90E1941FBCC004F1ADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 			children = (
 				4402C91B1941FBCC004F1ADE /* FISAppDelegate.h */,
 				4402C91C1941FBCC004F1ADE /* FISAppDelegate.m */,
+				2EF6A7371D0F097400E054FB /* FISPerson.h */,
+				2EF6A7381D0F097400E054FB /* FISPerson.m */,
 				4402C9131941FBCC004F1ADE /* Supporting Files */,
 				4402C91E1941FBCC004F1ADE /* Images.xcassets */,
 			);
@@ -292,6 +297,7 @@
 			files = (
 				4D83B3291BB339FD00A36DC8 /* FISAppDelegate.m in Sources */,
 				4402C9191941FBCC004F1ADE /* main.m in Sources */,
+				2EF6A7391D0F097400E054FB /* FISPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
